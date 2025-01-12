@@ -113,10 +113,11 @@ main {
 
 @media screen and (min-width: 350px) and (max-width: 520px) {
     .item .title {
-        font-size: 22vw;
+        font-size: 19vw;
         color: white;
         font-weight: bold;
         text-align: center;
+        font-family: 'Pacifico', cursive; /* Ou 'Lobster', cursive */;
         
     
         position: absolute;
@@ -128,7 +129,7 @@ main {
     .item .fruit {
         width: 90%;
         position: absolute;
-        top: 35vh;
+        top: 30vh;
         z-index: 3;
     }
 
